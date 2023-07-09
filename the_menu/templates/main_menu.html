@@ -1,0 +1,99 @@
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'css/menu_css.css' %}">
+
+
+<nav>
+    <ul>
+      <li><a href="#home">about</a></li>
+      <li><a href="#about">menu</a></li>
+      <li><a href="#serv">contact</a></li>
+    </ul>
+  </nav>
+
+
+  <div class="overview-box">
+    <h3 class="overview-title">Overview</h3>
+    <p class="overview-description"></p>
+  </div>
+
+
+
+  <section id="home" class="about-section">
+    <div class="about-content">
+      <h2 class="section-title">About Us</h2>
+      <p class="section-description"></p>
+      <a href="#" class="btn">Learn More</a>
+    </div>
+  </section>
+
+
+
+
+
+  <section id="about" class="menu-section">
+    <div class="menu-content">
+      <h2 class="section-title">Menu</h2>
+      <div class="menu-item">
+        <h3 class="item-title">Pizza</h3>
+        <p class="item-description">Delicious pizza with a variety of toppings.</p>
+        <span class="item-price">$10</span>
+      </div>
+      <div class="menu-item">
+        <h3 class="item-title">Burger</h3>
+        <p class="item-description">Juicy burger served with fries.</p>
+        <span class="item-price">$8</span>
+      </div>
+      <div class="menu-item">
+        <h3 class="item-title">Salad</h3>
+        <p class="item-description">Fresh salad with a choice of dressings.</p>
+        <span class="item-price">$6</span>
+      </div>
+      <div class="menu-item">
+        <h3 class="item-title">pasta</h3>
+        <p class="item-description">italian pasta with pesto sauce</p>
+        <span class="item-price">$9</span>
+      </div>
+        <div class="menu-item">
+          <h3 class="item-title">hotdog</h3>
+          <p class="item-description">hotdog with kechp and mayonase</p>
+          <span class="item-price">$5</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+
+
+
+  <section id="serv" class="contact-section">
+    <div class="contact-content">
+      <h2 class="section-title">Contact Us</h2>
+      <p class="section-description">For any inquiries or reservations, please feel free to contact us.</p>
+      <div class="contact-details">
+        <div class="contact-info">
+          <i class="fas fa-map-marker-alt"></i>
+          <p>123 Main Street, City, Country</p>
+        </div>
+        <div class="contact-info">
+          <i class="fas fa-phone"></i>
+          <p>+1 234 567 890</p>
+        </div>
+        <div class="contact-info">
+          <i class="fas fa-envelope"></i>
+          <p>info@example.com</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+
+  <script src="{% static 'js/script.js' %}"></script>
+  
+  
+
+<div class="footer">
+  <p>&copy; 2023 Your Company. All rights reserved.</p>
+</div>
